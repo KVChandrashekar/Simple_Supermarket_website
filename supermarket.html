@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Supermarket assignment-1MV17CS027</title>
+    <link rel="stylesheet" href="index.css" type="text/css" >
+    <style type="text/css">
+        
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 25%;
+  padding: 5px;
+}
+
+.row{
+  height: 100%;
+}
+
+.pine{
+  float: left;
+  height: 75%;
+  width: auto;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="https://www.sirmvit.edu/"><img id="logo" src="images/logo.jpg" alt="logo" /></a>
+            <div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item">Items</a>
+                    <div class="dropdown">
+                        <a  href="#fruit">Fruits and vegetables</a>
+                       <a  href="#daily">Daily needs</a>
+                        <a href="#fashion">Fashion</a>
+                        <a href="#sports">Sports</a>
+                    </div>
+                </div>
+                <div class="dropdown-wrapper">
+                    <a class="menu-item" href="#fruit">Blocks</a>
+                </div>
+                <button class="primary-button"><a href="#fruit" style="text-decoration: none;">Buy Now</a></button>
+            </div>
+        </nav>
+        <section id="landing-section">
+            <div id="main-text-wrapper">
+                <h1 style="color: #480ca8"><b>SUPERMARKET STORE<b></h1>
+                <p style="color: #480ca8">OUR SUPERMARKET STORE....HAPPY SHOPPING...KEEP DISTANCE</p>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <section id="store-section">
+            <p id="ffheading">Quality Items</p>
+            <h3>Our  Super Market</h3>
+            <p id="store-desc">Carrots can be stored for several months in the refrigerator or over winter in a moist, cool place.</p>
+            <div id="store-items-wrapper">
+                <div class="store-item">
+                    <div class="icon-wrapper">&#127822</div>
+                     <a href="#fruit" style="text-decoration: none;"><h3>Fruits</h3></a>
+                    <p>Use for cooking several types of vegetable oil.</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper">&#x267B</div>
+                     <a href="#daily" style="text-decoration: none;"><h3>Daily Needs</h3></a>
+                    <p>we provide wide range of fashion materials</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper">&#x1F3F9</div>
+                    <a href="#sports" style="text-decoration: none;"><h3>Sports</h3></a>
+                    <p>Our services include the best quality in materials we provide.</p>
+                </div>
+                <div class="store-item">
+                    <div class="icon-wrapper">&#128519</div>
+                    <a href="#fruit" style="text-decoration: none;"><h3>Best Price</h3></a>
+                    <p>Remember that we always provide our products to satisfactory of our customers</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <h2 style="text-align: center;">Fruits and vegetables section:</h2>
+<div class="row">
+  <div class="column">
+    <img id="fruit" src="images/apple.jpg" alt="apple" style="width:100%">
+    <p>COST: Rs.100/Kg</p>
+  </div>
+  <div class="column">
+    <img src="images/pomegranate.jpg" alt="pomegranate" style="width:100%">
+    <p>COST: Rs.150/Kg</p>
+  </div>
+  <div class="pine">
+    <img src="images/pineapple.jpg" alt="pineapple" style="width:100%">
+    <p>COST: Rs.40/piece</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img id="fruit" src="images/carrot.jpg" alt="carrot" style="width:100%; height: 230px;">
+    <p>COST: Rs.60/Kg</p>
+  </div>
+  <div class="column">
+    <img src="images/tomato.jpg" alt="tomato" style="width:100%">
+    <p>COST: Rs.50/Kg</p>
+  </div>
+  <div class="pine">
+    <img src="images/potato.jpg" alt="potato" style="width:100%;height: 220px;">
+    <p>COST: Rs.50/kg</p>
+  </div>
+</div>
+
+
+<h2 style="text-align:center;">Daily Needs Section:</h2>
+<div class="row">
+  <div class="column">
+    <img  id="daily" src="images/soap.jpg" alt="soap" style="width:100%">
+    <p>COST: see MRP on pack</p>
+  </div>
+  <div class="column">
+    <img src="images/lotion.jpg" alt="lotion" style="width:100%; height:300px;">
+    <p>COST: see MRP on pack</p>
+  </div>
+  <div class="column">
+    <img src="images/needs.jpg" alt="needs" style="width:100%; height: 280px;">
+    <p>COST: see MRP on pack</p>
+  </div>
+</div>
+
+
+<h2 style="text-align: center;">Fashion Section:</h2>
+<div class="row">
+  <div class="column">
+    <img id="fashion" src="images/shirt.jpg" alt="shirts" style="width:100%">
+    <p>COST: MRP ON LABEL</p>
+  </div>
+  <div class="column">
+    <img src="images/pant.jpg" alt="Forest" style="width:100%; height: 280px;">
+     <p>COST: MRP ON LABEL</p>
+  </div>
+  <div class="column">
+    <img src="images/full.jpg" alt="Fullsleves" style="width:100%; height: 280px;">
+      <p>COST: MRP ON LABEL</p>
+  </div>
+</div>
+
+<h2 style="text-align: center;">Sports Section:</h2>
+<div class="row">
+  <div class="column">
+    <img id="#Sports" src="images/volley.jpg" alt="volleyball" style="width:100%">
+    <p>COST: MRP MENTIONED ON STICKER</p>
+  </div>
+  <div class="column">
+    <img src="images/shoes.jpeg" alt="shoes" style="width:100%">
+    <p>COST: MRP MENTIONED ON STICKER</p>
+  </div>
+  <div class="column">
+    <img src="images/sdress.jpg" alt="sportdress" style="width:100%; height: 270px;">
+    <p>COST: MRP MENTIONED ON STICKER</p>
+  </div>
+</div>
+<br><br>
+
+        <section id="follow-section">
+            <div id="left-section">
+                <img src="images/daily.jpg" alt="Strawberry" />
+            </div>
+            <div id="right-section">
+                <div id="text-wrapper">
+                    <h3 style="color: #fff">Follow Us</h3>
+                    <p style="color: #fff">A wide range of products; many unusual and tasty products; courteous staff.</p>
+
+                    <input id="subscribe-email" placeholder="Your Email" />
+                    <input id="subscribe-btn" type="submit" value="Subscribe" />
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="address-section">
+            <div id="address-wrapper">
+                <div>
+                    <p class="green-heading">Contact Us</p>
+                    <h3 class="section-heading">Address Information</h3>
+                    <p class="section-description">Vegetables play an important role in human nutrition. Most are low in fat and calories but are bulky and filling.</p>
+
+                    <h4 class="address-heading">onlie supermarket Store</h4>
+                    <p class="address-lines"><a href="#" style="text-decoration: none;">online supermarket store <br>
+                    visit our store </a></p>
+
+                  <!--   <h4 class="address-heading">Berlin Store</h4>
+                    <p class="address-lines">
+                        Roeterseiland Campus Building E<br>6th floor London<br>Monday to Friday : 9am to 8pm<br>examplemail.mail.com</p> -->
+                </div>
+                <div>
+                    <p class="green-heading">FEEDBACK</p>
+                    <h3 class="section-heading">Supermarket</h3>
+                    <p class="section-description">Thanks for visiting....help us to improve</p>
+
+                    <form>
+                        <input class="input-box" type="text" name="name" placeholder="Name" required="name">
+                        <input class="input-box" type="text" name="phone" placeholder="Phone" required="phone">
+                        <input class="input-box" type="text" name="subject" placeholder="Subject" required="subject">
+                        <input class="input-box" type="email" name="email" placeholder="E-mail" required="email">
+                        <textarea class="input-box" required="Message">Feedback</textarea>
+                        <input id="btn-submit" class="primary-button" type="submit" value="Submit Now">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    <footer>1MV17CS027</footer>
+</body>
+</html>
